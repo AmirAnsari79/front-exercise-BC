@@ -1,0 +1,26 @@
+.flex-g-1{
+    flex-grow: 1;
+}
+.flex-g-7{
+    flex-grow: 7;
+}
+.d-flex{
+    display: flex;
+}
+/* .flex-col{
+    flex-direction: column;
+} */
+.al-it-ce{
+    align-items: center;
+}
+.s-22{
+  
+    width: 22px;
+    height: 22px;
+}
+.gap-8{
+    gap: 8px;
+}
+.p-r-l-8{
+    padding: 8px;
+}
