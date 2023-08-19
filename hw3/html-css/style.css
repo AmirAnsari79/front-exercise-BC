@@ -145,17 +145,20 @@ main section article img{
 *{
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
 .container{
     display: flex;
     justify-content: space-around;
-    margin: 24px 4px;
+    
 }
 aside{
+    margin: 24px 4px;
     
 }
 main{
-    background-color: brown;
+    background-color: #f1f1f1;
+    padding: 16px;
 }
 .aside-image{
     padding: 0 8px;
@@ -191,3 +194,41 @@ main{
     list-style-type:none ;
     
 }
+.main-navbar{
+    margin: 16px 0px;
+    padding: 16px 0px;
+
+}
+.main-navbar-button svg{
+    margin-right: 6px;
+}
+.main-navbar-button{
+    padding: 8px 16px;
+    margin-right: 4px;
+    border: none;
+    background-color: white;
+    
+}
+.mian-section > article{
+    width: 385px;
+    height: 100%;
+    background-color: #fff;
+    margin: 16px 16px 16px 0px;
+}
+.mian-section >article >div:nth-child(1){
+    display: inline;
+    width: 385px;
+    height: 256px;
+}
+.mian-section >article >div:nth-child(2){
+    display: inline;
+    padding: 0px 16px;
+}
+.mian-section > article > div >p{
+    margin: 15px 0px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+}
+

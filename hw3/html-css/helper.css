@@ -1,8 +1,8 @@
 .flex-g-1{
     flex-grow: 1;
 }
-.flex-g-7{
-    flex-grow: 7;
+.flex-g-14{
+    flex-grow: 14;
 }
 .d-flex{
     display: flex;
@@ -23,4 +23,10 @@
 }
 .p-r-l-8{
     padding: 8px;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.d-col{
+    flex-direction: column;
 }
